@@ -1,0 +1,51 @@
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+/* visited link */
+a:visited {
+  color: white;
+}
+ 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:#673AB7;
+  text-decoration: none;
+}
+
+/* Sidebar/left column */
+.sidefoot {
+  -ms-flex: 30%; 
+  flex: 30%;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+  
+/* Main column */
+.mainfoot {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.twitter::before{
+  content: url("../images/twitter.svg");
+}
+.instagram::before{
+  content: url("../images/instagram.svg");
+}
+.github::before{
+  content: url("../images/github.svg");
+}
+.spotify::before{
+  content: url("../images/spotify.svg");
+}
+  
