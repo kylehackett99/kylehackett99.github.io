@@ -37,15 +37,15 @@ a:visited {
 }
 
 .twitter::before{
-  content: url("../images/twitter.svg");
+  content: url("../images/social_media_icons/twitter.svg");
 }
 .instagram::before{
-  content: url("../images/instagram.svg");
+  content: url("../images/social_media_icons/instagram.svg");
 }
 .github::before{
-  content: url("../images/github.svg");
+  content: url("../images/social_media_icons/github.svg");
 }
 .spotify::before{
-  content: url("../images/spotify.svg");
+  content: url("../images/social_media_icons/spotify.svg");
 }
   
