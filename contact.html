@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/contact.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/main.css">
+<script src="javascript/nav.js"></script>
 </head>
 <body>
 
@@ -15,11 +16,23 @@
   <p>Ways to <b>contact</b> me.</p>
 </div>
 
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="projects.html">Projects</a>
+
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
   <a href="contact.html" class="active">Contact</a>
-</div>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
 
 <div class="row">
 

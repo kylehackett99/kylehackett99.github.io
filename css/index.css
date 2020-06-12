@@ -1,9 +1,9 @@
 
   .profileimg {
     background-color:#673AB7;
-    width: 100%;
+    width: 200px;
     padding: 20px;
-    height:200px;
+    height:250px;
     
   }
 
@@ -13,4 +13,4 @@
     padding: 10px;
     height:20px;
   }
-  
+

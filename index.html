@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/footer.css">
 <link rel="stylesheet" href="css/main.css">
+<script src="javascript/nav.js"></script>
 </head>
 <body> 
 
@@ -15,26 +16,29 @@
   <p>A <b>personal</b> website.</p>
 </div>
 
-<div class="navbar">
-  <a href="index.html" class="active">Home</a>
-  <a href="projects.html">Projects</a>
-  <a href="contact.html">Contact</a>
-</div>
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+ <!-- Top Navigation Menu -->
+ <div class="topnav">
+   <a href="index.html" class="active">Home</a>
+   <!-- Navigation links (hidden by default) -->
+   <div id="myLinks">
+     <a href="projects.html">Projects</a>
+     <a href="contact.html">Contact</a>
+   </div>
+   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <i class="fa fa-bars"></i>
+   </a>
+ </div> 
+
+<!--Intro Content-->
 <div class="row">
   <div class="side">
     <img class="profileimg" src="images/tj_senior_pic.jpg" alt="Image not loaded"></img>
    <p></p>
    <div class="buffer"></div> 
-   <p>Skills</p> 
-    <ul>
-      <li>C</li>
-      <li>Python</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-    </ul>
-    <div class="buffer"></div> 
   </div>
   <div class="main">
     <h2>Nice to Meet You!</h2>
@@ -45,11 +49,25 @@
     </p>
     <img class="buffer" style="height:300px;" src="images/lowell.JPG" alt="Image not loaded"></img>
     <br>
-    <h2></h2>
-    <h5></h5>
+  </div>
+</div>
+<!--Additional Content-->
+<div class="row">
+  <div class="side">
     <div class="buffer"></div>
-    <p></p>
-    <p></p>
+    <p>Skills</p> 
+    <ul>
+      <li>C</li>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Javascript</li>
+    </ul>
+    <div class="buffer"></div> 
+  </div>
+  <div class="main">
+    <div class="buffer"></div>
+    <P>Additional content</P>
   </div>
 </div>
 
