@@ -33,7 +33,11 @@ p{
   }
 
 img{
-  padding: 10px;
+  background-color:#673AB7;
+  padding: 20px;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
   alt: "Image Not Found";
 }
 
