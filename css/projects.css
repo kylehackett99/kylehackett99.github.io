@@ -32,6 +32,11 @@ p{
     align-content: left;
   }
 
+img{
+  padding: 10px;
+  alt: "Image Not Found";
+}
+
  .buffer {
     background-color:#673AB7;
     width: 100%;
