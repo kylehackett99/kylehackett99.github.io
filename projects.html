@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="css/projects.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/slideshow.css">
   <script src="javascript/nav.js"></script>
+  <script src="javascript/slideshow.js"></script>
  </head>
 <body>
 
@@ -66,11 +68,24 @@
       to see if the password has already been cracked, and if it is a new password it is displayed 
       for the user to copy to their clipboard. 
     </p>
-    
-    <img src="images/project_images/password/password1.png" width="350px" height="200px" align="center">
-    <img src="images/project_images/password/password2.png" width="350px" height="200px" align="center">
-    <img src="images/project_images/password/password3.png" width="350px" height="200px" align="center">
-    
+    <div>
+      <div class="slideshow-container">
+        <div class="PasswordSlides">
+          <img src="images/project_images/password/password1.png" style="width:100%">
+        </div>
+        <div class="PasswordSlides">
+          <img src="images/project_images/password/password2.png" style="width:100%">
+        </div>
+        <div class="PasswordSlides">
+          <img src="images/project_images/password/password3.png" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+      </div>
+    </div>
+
+   
+
     <div>
       <br/>
       <a class="github" href="https://github.com/kylehackett99", style="color:black">GitHub Link</a>
@@ -105,17 +120,17 @@
     <p id="robotics"></p>
     <br/>
     <br/>
-    <h3>TJ^2 Robotics</h3>
-    <p>I was a member of TJ^2, which was Bridgewater-Raynham Regional High School's FIRST robotics team.
+    <h3>TJ<sup>2</sup> Robotics</h3>
+    <p>I was a member of TJ<sup>2</sup>, which was Bridgewater-Raynham Regional High School's FIRST robotics team.
       I joined sophomore year, where I primatily worked on assembly. But from there I joined the strategy
       group and developed my interpersonal skills and data analytics, by senior year I was a member of
       the programming team. I was taking my first programming course at the time, but I got my feet wet 
       working on the robot's intake mechanism, as well as coding some of it's sensors. That first experience
       planted the seed that later pushed me to changing my major to computer science. 
     </p>
-    <img src="images/project_images/robotics/robotics2.jpg" width="300px" height="300">
-    <br/> 
+    
 
+    <br/> 
     <br/>
     <p id="eagle_project"></p>
     <br/>
@@ -162,5 +177,8 @@
     
 </footer>
 
+<script src="javascript/slideshow.js">
+  showSlides(slideIndex);
+</script>
 </body>
 </html>
