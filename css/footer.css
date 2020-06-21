@@ -18,8 +18,8 @@ a:visited {
 
 /* Sidebar/left column */
 .sidefoot {
-  -ms-flex: 30%; 
-  flex: 30%;
+  -ms-flex: 40%; 
+  flex: 40%;
   padding: 20px;
   color: white;
   text-decoration: none;
@@ -28,8 +28,8 @@ a:visited {
   
 /* Main column */
 .mainfoot {   
-  -ms-flex: 70%; 
-  flex: 70%;
+  -ms-flex: 60%; 
+  flex: 60%;
   padding: 20px;
   color: white;
   text-decoration: none;
