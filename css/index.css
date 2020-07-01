@@ -1,9 +1,10 @@
 
   .profileimg {
     background-color:#673AB7;
-    width: 350px;
+    width: 300px;
     padding: 20px;
-    height:400px;
+    height:350px;
+    align-self: center;
     
   }
 
@@ -12,6 +13,11 @@
     width: 100%;
     padding: 10px;
     height:20px;
+  }
+
+  #intro {
+  background-color:#7543cc;
+  color: white;
   }
 
   p,h1,h2,h5 {
