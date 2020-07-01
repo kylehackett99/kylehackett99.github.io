@@ -53,3 +53,14 @@ img{
     width: 450px;
   }
 
+p,h1,h2,h5 {
+    font-size: 200%;
+  }
+
+.main a{
+  font-size: 200%;
+}
+
+.side a{
+  font-size: 150%;
+}
