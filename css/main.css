@@ -26,7 +26,6 @@
   
   /* Header/logo Title */
   .header {
-    padding: 2%;
     text-align: center;
     background: #673AB7; 
     color: white;
@@ -36,6 +35,8 @@
   /* Increase the font size of the heading */
   .header h1 {
     font-size: 40px;
+    padding-top: 20%;
+    padding-bottom: 20%;
   }
   
      /* Style the navigation menu */
@@ -126,5 +127,6 @@
     border-radius: 10px;
     border: white;
     border-width: 10px;
+    padding: 2%;
 
   }
