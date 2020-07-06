@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
   }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
  
  
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -18,11 +25,6 @@
     }
   }
 
-
-  body {
-   font-family: sans-serif;
-    margin: 0;
-  }
   
   /* Header/logo Title */
   .header {
@@ -34,12 +36,30 @@
   
   /* Increase the font size of the heading */
   .header h1 {
-    font-size: 200%;
+    font-size:500%;
     padding-top: 20%;
     padding-bottom: 20%;
   }
+
+   @media only screen and (max-width: 812px) {
+  .header h1 {
+    font-size: 150%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    
+  }
+}
+
+#headerimage {
+  height: auto;
+  width: 100%;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+
   
-     /* Style the navigation menu */
+/* Style the navigation menu */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -48,12 +68,10 @@
   top: 0;
   z-index: 500
 }
-
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
 }
-
 /* Style navigation menu links */
 .topnav a {
   color: white;
@@ -62,7 +80,6 @@
   font-size: 20px;
   display: block;
 }
-
 /* Style the hamburger menu */
 .topnav a.icon {
   background: black;
@@ -71,19 +88,22 @@
   right: 0;
   top: 0;
 }
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
+/* Adds a white background color on mouse-over */
+.topnav a:hover{
   background-color: white;
   color: black;
+  
 }
 
 /* Style the active link (or home/logo) */
 .active {
   background-color: black;
   color: white;
-} 
-  
+}
+
+ 
+
+
   /* Column container */
   .row {  
     display: -ms-flexbox; /* IE10 */
@@ -109,24 +129,15 @@
     padding: 20px;
   }
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+  body {
+   font-family: sans-serif;
+    margin: 0;
   }
  
-
   a{
     text-decoration: none;
   }
 
-  #headerimage {
-    height: auto;
-    width: 100%;
-    border-radius: 10px;
-    border: white;
-    border-width: 10px;
-    padding: 2%;
-
-  }
+  

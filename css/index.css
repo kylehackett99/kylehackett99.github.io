@@ -4,7 +4,13 @@
     width: 100%;
     padding: 20px;
     height:auto;
-    
+  }
+
+  .body_image {
+    background-color:#673AB7;
+    width: 100%;
+    padding: 20px;
+    height: 50%;
   }
 
   .buffer {

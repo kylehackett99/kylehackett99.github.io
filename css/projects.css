@@ -49,16 +49,12 @@ img{
   }
 
   .eagle_image{
-    height: 550px;
-    width: 450px;
-  }
-
-p,h1,h2,h5 {
-    font-size: 200%;
+    height: auto;
+    width: 100%;
   }
 
 .main a{
-  font-size: 200%;
+  font-size: 100%;
 }
 
 .side a{
