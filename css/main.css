@@ -2,6 +2,23 @@
     box-sizing: border-box;
   }
  
+ 
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
   body {
    font-family: sans-serif;
     margin: 0;
@@ -9,10 +26,11 @@
   
   /* Header/logo Title */
   .header {
-    padding: 80px;
+    padding: 50px;
     text-align: center;
     background: #673AB7; 
     color: white;
+    position: relative;
   }
   
   /* Increase the font size of the heading */
@@ -89,22 +107,26 @@
     background-color: white;
     padding: 20px;
   }
-  
-  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 700px) {
-    .row {   
-      flex-direction: column;
-    }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .navbar a {
-      float: none;
-      width: 100%;
-    }
-  }
+ 
 
   a{
     text-decoration: none;
+  }
+
+  #headerimage {
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+
   }
