@@ -37,9 +37,18 @@
   /* Increase the font size of the heading */
   .header h1 {
     font-size:500%;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    text-shadow: 10px 10px 15px purple;
+    /*padding-top: 20%;
+    padding-bottom: 20%;*/
   }
+  
+  #headerimage {
+  height: auto;
+  width: 100%;
+  box-shadow: 5px 10px 8px 10px #888888;
+  /*border-radius: 10px;
+  padding: 2%;*/
+}
 
    @media only screen and (max-width: 812px) {
   .header h1 {
@@ -50,12 +59,6 @@
   }
 }
 
-#headerimage {
-  height: auto;
-  width: 100%;
-  border-radius: 10px;
-  padding: 2%;
-}
 
 
   

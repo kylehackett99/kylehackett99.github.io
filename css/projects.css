@@ -53,6 +53,11 @@ img{
     width: 100%;
   }
 
+  .robotics_image{
+    height: auto;
+    width: 100%;
+  }
+
 .main a{
   font-size: 100%;
 }
