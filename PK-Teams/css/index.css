@@ -1,0 +1,183 @@
+#header{
+    background-image: linear-gradient(#29448d , #315ac8) ;
+    color: whitesmoke;
+}
+
+#body{
+    
+    background-image: linear-gradient(#009b52, #31b685);
+    
+    /*Replace with Image Background later*/
+}
+
+
+.card{
+    background-color: #d6fbd4;
+    box-shadow: 0px 5px 5px black;
+    margin: 0 auto;
+}
+
+.pokecard{
+    
+    background-color: #d6fbd4;
+    box-shadow: 0px 10px 10px black;
+    margin: 0 auto;
+    align-self: center;
+    align-content: center;
+
+}
+.pokecard img{
+    height: 110%;
+    width: 110%;
+    align-content: center;
+}
+
+
+.pokecard:hover{
+    animation: bounce 0.5s linear;
+    background-image: linear-gradient(#d6fbd4,#8eda89);
+}
+
+@keyframes bounce{
+    20%{
+        transform: translateY(-6px);
+    }
+    30%{
+        transform: translateX(6px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateX(-0px);
+    }
+    60%{
+        transform: translateY(-2px);
+    }
+    70%{
+        transform: translateX(2px);
+    }
+    80%{
+        transform: translateY(0px);
+    }
+    90%{
+        transform: translateX(0px);
+    }
+}
+
+
+#teambutton{
+    z-index: 10;
+}
+
+
+#footer{
+    background-color:#29448d;
+    color: whitesmoke;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  max-height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  align-content: center;
+  text-align: center;
+}
+
+.modal-content img{
+  height:55%;
+  width: 30%;
+}
+
+
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  font-size: 140%;
+  overflow: auto;
+}
+
+.modal-body table{
+  align-content: center;
+  width:50%;
+}
+
+#l .modal-body{
+  text-align:left;
+}
+#r .modal-body{
+  text-align:left;
+}
+
+@media screen and (max-width: 800px) {
+    .modal-body {   
+      flex-direction: column;
+      font-size: 100%;
+    }
+  }
+
+
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
