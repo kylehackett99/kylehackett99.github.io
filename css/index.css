@@ -1,32 +1,9 @@
 
-  .profileimg {
-    background-color:#673AB7;
-    width: 100%;
-    padding: 20px;
-    height:auto;
-  }
 
-  .body_image {
-    background-color:#673AB7;
-    width: 100%;
-    padding: 20px;
-    height: 50%;
-  }
-
-  .buffer {
-    background-color:#673AB7;
-    width: 100%;
-    padding: 10px;
-    height:20px;
-  }
-
-  #intro {
-  background-color:#7543cc;
-  color: white;
-  }
-
-  p,h1,h2,h5 {
-    font-size: 150%;
-  }
-
+#myImage{
+  background: #533A7B;
+  padding: 8px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px #999;
+}
 

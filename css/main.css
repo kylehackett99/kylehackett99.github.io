@@ -1,146 +1,81 @@
-* {
-    box-sizing: border-box;
-  }
+html{
+    background-color: #A7B0CA;
+}
 
-  .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
- 
- 
-  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 700px) {
-    .row {   
-      flex-direction: column;
-    }
-  }
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .navbar a {
-      float: none;
-      width: 100%;
-    }
-  }
 
-  
-  /* Header/logo Title */
-  .header {
-    text-align: center;
-    background: #673AB7; 
+.jumbotron{
+    background-image: linear-gradient(#533A7B, #724b9e);
+    border-radius: 25px;
+}
+
+header h1{
+    font-size: 600%;
     color: white;
-    position: relative;
-  }
-  
-  /* Increase the font size of the heading */
-  .header h1 {
-    font-size:500%;
-    text-shadow: 10px 10px 15px purple;
-    /*padding-top: 20%;
-    padding-bottom: 20%;*/
-  }
-  
-  #headerimage {
-  height: auto;
-  width: 100%;
-  box-shadow: 5px 10px 8px 10px #888888;
-  /*border-radius: 10px;
-  padding: 2%;*/
-}
-
-   @media only screen and (max-width: 812px) {
-  .header h1 {
-    font-size: 150%;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    
-  }
 }
 
 
 
-  
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 500;
-  
-}
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
-}
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-/* Adds a white background color on mouse-over */
-.topnav a:hover{
-  background-color: white;
-  color: black;
-  
-}
-/* Style the active link (or home/logo) */
-.active {
-  background-color: black;
-  color: white;
+body{
+    overflow-x: hidden;
+    background-color: #A7B0CA;
 }
 
- 
+
+.navbar{
+    color:white;
+    background-color: #127475;
+}
+
+.fa-bars{
+    color: white;
+}
+.fa-bars:hover{
+    color: #F6AE2D;
+}
 
 
-  /* Column container */
-  .row {  
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
-  
-  /* Main column */
-  .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-  }
+#currentPage{
+    color: white;
+    font-size: 200%;
+    background-color: transparent;
+}
 
-
-
-  body {
-   font-family: sans-serif;
-    margin: 0;
-  }
- 
-  a{
+#currentPage a{
     text-decoration: none;
-  }
+    color: white;
+    cursor: pointer;
+}
+#currentPage a:hover{
+    background-color: transparent;
+    color: #F6AE2D;
+    cursor: pointer;
+}
 
-  
+#navbarLinks{
+    color: white;
+    font-size: 200%;
+    background-color: transparent;
+}
+
+#navbarLinks a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#navbarLinks a:hover{
+    background-color: transparent;
+    color: #F6AE2D;
+    cursor: pointer;
+}
+
+
+.card-title{
+    background-color: #533A7B;
+    color: white;
+}
+
+.card{
+   border-color: black;
+   border-width: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}

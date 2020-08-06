@@ -1,73 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<title>Contact - Kyle Hackett</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/contact.css">
-<link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" href="css/main.css">
-<script src="javascript/nav.js"></script>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div class="header">
-  <img src="images/white_mountain.JPG" id="headerimage">
-  <h1 class="centered">Kyle Hackett</h1>
-</div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <!--Social Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
- <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home - Kyle Hackett</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    
 
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="contact.html" class="active">Contact</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div> 
+  </head>
 
-<div class="row">
-
-  <div class="main">
-    <p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQapANLHAIJ22UgRU-LBtrgFNlVEP5EgU6gYnax1sRdCNI7Q/viewform?embedded=true" width="50%" height="900px" frameborder="0" marginheight="0" marginwidth="0">Loading Form…</iframe>
-    </p>
-    <ul>
-      <p>Other Ways to Contact Me</p>
-      <p><a class="twitter" href="https://twitter.com/kylejhack">Twitter DMs</a></p>
-      <p>Discord: Blue42</p>
-    </ul>
-
-  </div>
-</div>
-
-<!--Footer--->
-<footer class="footer">
-  <div class="row">
-    <div class="mainfoot">
-      <h2>Thank You for Coming!</h2>
-      <h4>Navigation</h4>
-        <a href="index.html" >Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-        
-      <h4>Social Media</h4> 
-        <a class="twitter" href="https://twitter.com/kylejhack"><span> Twitter  </span> </a>
-        <a class="instagram" href="https://www.instagram.com/kylej.hackett/"><span> Instagram  </span></a>
-        <a class="github" href="https://github.com/kylehackett99"><span> GitHub  </span></a>
-        <a class="spotify" href="https://open.spotify.com/user/kyleblue42?si=8t9CjL8pTh2VQLOW6zPmXA"><span> Spotify  </span></a>
-        <h6 align="center" id="date"></h6>
-        <script src="javascript/date.js"></script>
+  <header>
+    <!--Header image/text-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron" align="center">
+                    <h1>Kyle Hackett</h1>
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
+       
+        
+    
+        
+  </header>
 
+
+  <body>
+    <!---Nav Bar-->
+    <div class="pos-f-t sticky-top">
+
+        <nav class="navbar">
+            <span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </button>
+                <span id="currentPage"><a onclick="scrollToTop()">Contact</a></span>
+            </span>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div id="navbarLinks" class="bg-dark p-4">
+                <div  class="row">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="row">
+                    <a href="projects.html">Projects</a>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    
+    
+
+    <div class="container mt-5 mb-5">
+
+        <div class="row">
+            <div class="col-12">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQapANLHAIJ22UgRU-LBtrgFNlVEP5EgU6gYnax1sRdCNI7Q/viewform?embedded=true" width="95%" height="900px" frameborder="0" marginheight="0" marginwidth="0">Loading Form…</iframe>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <!--My Scripts-->
+    <script src="js/index.js"></script>
 </body>
+
+
+  <footer>
+    <div class="container-fluid mt-5 pt-3 pb-3" id="footer">
+        <div class="row">
+            <div class="col-12 mb-5" align="center">
+                <!-- SM icons -->
+                <a href="https://www.facebook.com/profile.php?id=100011379832756" class="fa fa-facebook" ></a>
+                <a href="https://twitter.com/kylejhack" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-spotify"></a>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-4" align="center" id="navLinks">
+                <h4>Navigation</h4>
+                <a href="index.html" >Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4" align="center">
+                <h4 align="center" id="date"></h4>
+                <script src="js/date.js"></script>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12" align="center">
+                <h3>Thank you for Coming!</h3>
+            </div>
+        </div>
+
+       
+    </div>
+  </footer>
+
+
 </html>

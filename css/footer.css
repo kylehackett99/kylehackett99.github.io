@@ -1,52 +1,112 @@
+#footer{
+    background-color: #127475;
+    color: white;
+}
 
-/* unvisited link */
-a:link {
-  color: white;
-}
-/* visited link */
-a:visited {
-  color: white;
-}
+ .fa {
+   padding: 20px;
+   font-size: 30px;
+   width: 100px;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 2px;
+ }
  
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background:#673AB7;
-  text-decoration: none;
-}
+ .fa:hover {
+     opacity: 0.7;
+ }
+ 
+ .fa-facebook {
+   background: #3B5998;
+   color: white;
+ }
+ 
+ .fa-twitter {
+   background: #55ACEE;
+   color: white;
+ }
+ 
+ .fa-linkedin {
+   background: #007bb5;
+   color: white;
+ }
+ .fa-youtube {
+   background: #bb0000;
+   color: white;
+ }
+ .fa-instagram {
+   background: #125688;
+   color: white;
+ }
+ .fa-spotify {
+   background: green;
+   color: white;
+ }
 
-/* Sidebar/left column */
-.sidefoot {
-  -ms-flex: 40%; 
-  flex: 40%;
-  padding: 20px;
-  color: white;
-  text-decoration: none;
-  text-align: left;
-  font-size: 100%;
-}
+ .fa-github{
+   background: black;
+   color: white;
+ }
   
-/* Main column */
-.mainfoot {   
-  -ms-flex: 60%; 
-  flex: 60%;
-  padding: 20px;
-  color: white;
-  text-decoration: none;
-  overflow: hidden;
-}
+ /* Hoverbtn */
+ .button {
+   border-radius: 4px;
+   background-color: #fa5882;
+   border: none;
+   color: #ffffff;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 5px;
+ }
+ 
+ .button span {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+ }
+ 
+ .button span:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+ }
+ .button:hover span {
+   padding-right: 25px;
+ }
+ 
+ .button:hover span:after {
+   opacity: 1;
+   right: 0;
+ }
 
-.twitter::before{
-  content: url("../images/social_media_icons/twitter.svg");
-}
-.instagram::before{
-  content: url("../images/social_media_icons/instagram.svg");
-}
-.github::before{
-  content: url("../images/social_media_icons/github.svg");
-}
-.spotify::before{
-  content: url("../images/social_media_icons/spotify.svg");
-}
-  
+ a {
+     text-decoration: none;
+     display: inline-block;
+     padding: 8px 16px;
+ }
+ 
+ a:hover {
+     background-color: #ddd;
+     color: #000000;
+ }
+
+
+ #navLinks a{
+    text-decoration: none;
+    color: white;
+ }
+ #navLinks a:hover{
+   color:white;
+   background-color: gray;
+ }
+ 
+
+ 
