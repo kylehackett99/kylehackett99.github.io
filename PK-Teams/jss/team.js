@@ -137,8 +137,8 @@ function clearTeam()
 
 function emptyMon(){
 	 var emptyMonString = `
-		<h5 class="card-title center">Empty Team Slotz</h5>
-		<img class="card-image" src="../jss/icons8-pokeball-100.png">
+		<h5 class="card-title center">Empty Team Slot</h5>
+		<img class="card-image" src="/kylehackett99.github.io/PK-Teams/jss/icons8-pokeball-100.png">
    `;	
    return emptyMonString;
 }
