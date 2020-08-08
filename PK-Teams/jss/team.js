@@ -137,8 +137,8 @@ function clearTeam()
 
 function emptyMon(){
 	 var emptyMonString = `
-		<h5 class="card-title center">Empty Team Slot</h5>
-		<img class="card-image center" src="">
+		<h5 class="card-title center">Empty Team Slotz</h5>
+		
    `;	
    return emptyMonString;
 }
