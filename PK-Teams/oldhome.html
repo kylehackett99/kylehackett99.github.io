@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pk-Team</title>
+    
+  <meta name="description" content="PK-Teams, a Pokemon TeamBuilder built by Kyle Hackett, a Computer Science Student at UMass Boston. Add members to your team and view their stats and your team's weaknesses!">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    
+    <!---Custom CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body id="body">
+
+<div class="jumbotron text-center" id="header">
+  <h1>PK-Team</h1>
+  <p>A Pokemon TeamBuilder</p> 
+</div>
+
+<!---Pokemon Display-->
+<!--Random Pokemon is displayed-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="span6" style="float: none; margin: 0 auto;">
+            <button type="button" class="pokecard" class="btn" onclick="openModal()" id="btn-popover" 
+                data-toggle="popover" title="Click ME!" data-content="If you do you get to see more details!">
+                    <div id="pokedex1" id="pokemon"></div>
+                    
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+
+
+ <!-- The Modal -->
+<div id="myModal" class="modal">
+  <div id="pokeMod"></div>
+</div>
+
+<script>
+  /*Modal Script*/   
+// Get the modal
+var modal = document.getElementById("myModal");
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal 
+function openModal() {
+  modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+function closeModal() {
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<!--Popover-->
+<script>
+    $('#btn-popover').popover({
+      trigger: 'hover'
+    })
+</script> 
+
+
+<!--Link to team site-->
+<div class="container pt-5 pb-5 text-dark">
+    <div class="row mt-5">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            
+            <button id="teambutton" onclick="toTeam()" onmouseover="" type="button" class="btn btn-primary btn-lg btn-block">
+              <h1>ENTER SITE</h1>
+            </button>
+        </div>
+        <div class="col-sm-4"></div>
+    </div>
+</div>
+
+
+<script src="jss/index_fetch.js"></script>
+
+
+
+<!-- Website Footer-->
+<div class="container-fluid" id="footer">
+    
+ <div class="row">
+    <div  class="col-sm-4 text-center text-white pt-3 pb-3">
+      <h3>Page Links</h3>
+      <a href="index.html">Homepage</a>
+      <a href="team.html">Teambuilder</a>
+      <a href="https://kylehackett99.github.io/"><h5>Kyle's Website</h5></a>
+          
+    </div>
+    <div  class="col-sm-4 text-center text-white pt-3 pb-3">
+      <p>Pokémon © 2002-2020 Pokémon. © 1995-2020 Nintendo/Creatures Inc./GAME FREAK inc. ™, ® and Pokémon character names are trademarks of Nintendo.</p>
+    </div>
+    <div  class="col-sm-4 text-center text-white pt-3 pb-3">
+          <h3>Social Media</h3>
+          <a href="https://twitter.com/kylejhack?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @kylejhack</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+    
+</div>
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</html>

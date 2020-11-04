@@ -8,9 +8,20 @@ html{
     border-radius: 25px;
 }
 
-header h1{
-    font-size: 600%;
+
+
+.headertext{
+    text-align: left;
     color: white;
+}
+
+.headertext h1{
+    font-style:normal;
+    font-size: 500%;
+}
+
+.headertext h4{
+    font-style: oblique;
 }
 
 
