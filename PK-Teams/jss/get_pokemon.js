@@ -6,7 +6,7 @@ const pokedex = document.getElementById("pokedex");
 const fetchPokemon = () => {
 
     var num = 898;
-    var max = 10158;
+    var max = 10220;
     var pokedex = new Array(num).fill({});
     const promises = [];
 
