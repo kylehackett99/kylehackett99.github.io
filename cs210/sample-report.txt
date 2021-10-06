@@ -1,0 +1,65 @@
+/**************************************************************************
+*                                                                         *
+* Sample Report for a Made Up Problem: Printing Elements of a Linked List *
+*                                                                         * 
+**************************************************************************/
+
+
+
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<6>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<10>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Print Linked List)
+       Approach: I was able to solve this problem relatively easily using what I knew about the Node
+	data type in Java. Since each node in a standard linked list keeps track of the next node, and
+        its own item, I can use both attributes to print each item in the list. Using a for loop that
+	iterates by moving x to x.next until Node x is null, would allow me to traverse the the linked
+	list until I reach the end. Once I knew that I was going through the whole list I placed 
+        a print statement in the for loop that printed the values.
+
+       Issues and resolution: This problem did not take me much time at all. What I knew about linked lists
+        made it very easy to complete. Also one of the exercises in class did osmething similar so I was
+	able to apply that knowlage to this problem. The only thing that gave me some trouble was that I
+	had been comparing x.next to null instead of x to null, but I quickly noticed that and fixed it.
+
+
+   Problem 2 (Print Linked List in Reverse) * not enough time / Struggled
+       Approach: I ran out of time to complete this problem in its entirety, but this is what I think
+	I should have done. I believe that if I found a way to keep track of the length of the linked list,
+        and then iterate through to the n - i element and print it that would be a solution to the problem.
+        The runtime of such an algorithm would be nowhere close to O(n) as desired. Another thought I had 
+	would be to use a stack and puch each node to the stack, and then pop off each element and print its
+        contents. The issue with that is that we are not allowed to use libraries that are already built in.
+	Another idea I had was to completely reverse the linked list and then pass it to the method created 
+	in problem 1, but I ran out of time to think of ways to implement that.
+
+       Issues and resolution: I had a lot of issues with this problem, and they originated from not giving myself
+        enough time to complete it as well as not fully grasping how linked lists work. I think if I had
+        alloted more time for this assignement and went to office hours to discuss linked lists I would have had
+	an easier time.
+
+   
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+   Kyle                TA           Office Hours for Discussing Stack
+   
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...
