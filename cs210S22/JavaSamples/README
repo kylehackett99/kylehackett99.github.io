@@ -1,0 +1,30 @@
+Discussion 1 Code - Kyle Hackett
+
+Main.java - utilizes Animal, Person, Vampire java files to provide very basic examples to help understand concepts
+    - Java Basics
+    - Object
+    - Inheritance
+    - Interfacing
+    - Generics
+    - Statics
+
+Person.java - Object & class building example
+
+Vampire.java - inheritance example
+
+Animal.java - interfacing example
+
+Box.java - Generic Method Example
+    - Borrowed from tutorialspoint https://www.tutorialspoint.com/java/java_generics.htm
+
+
+Compile with javac -d .\out\ .\src\Discussion1\Main.java .\src\Discussion1\Vampire.java .\src\Discussion1\Person.java .\src\Discussion1\Animal.java
+        .\src\Discussion1\Box.java
+Run with java Main "Name" # # # #
+
+
+
+Box.java - Generic Method Example
+    - Borrowed from tutorialspoint https://www.tutorialspoint.com/java/java_generics.htm
+
+
