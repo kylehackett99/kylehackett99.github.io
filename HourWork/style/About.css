@@ -1,0 +1,233 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 710px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin: 60px auto 60px 0;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 590px;
+  
+  background-position: 50% 50%;
+  border-radius: 30px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 60px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 590px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px 60px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Nunito;
+  font-weight: 600;
+  font-weight: bolder;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Nunito;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  background-image: none;
+  border-style: solid;
+  font-family: Nunito;
+  margin: 20px auto 0 0;
+  padding: 10px 34px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    width: 48%;
+    min-height: 48%;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 486px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 486px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    width: 48%;
+    min-height: 48%;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 372px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    width: 48%;
+    min-height: 48%;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 558px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+.borderbox {
+  width: 1100px;
+  height: 1950px;
+  background-color: white;
+  display: inline-block;
+  margin: 30px 50px;
+  border: 5px solid #0693e3;
+  border-radius: 30px;
+  text-align: center;
+  z-index: 1;
+ 
+}
+
+.hourwork-logo-border {
+  width: 100px;
+  position: absolute;
+  top: -15px;
+  right: 555px;
+  z-index: 2;
+}
+
+.img-logo-4 {
+  width: 100px;
+  position: absolute;
+  top: -15px;
+  z-index: 2;
+  text-align:center;
+  
+}
+
+.about-section-image {
+  width: 390px;
+  height: 260px;
+  align-items: center;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  border-radius: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+}
+
+.download-btn {
+  position: absolute;
+  top: 80px;
+  left: 42%;
+  background-color:#1c45a8;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  text-transform: lowercase;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.browser-image {
+  position: absolute;
+  width: 500px;
+  height: 55px;
+  text-align: center;
+  top: 175px;
+}
+
+.browser-icon {
+  display:inline;
+  width: 60px;
+  height: 60px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.social-media-icon {
+  position: relative;
+  display: inline;
+  margin-top: 450px;
+  margin-right: -120px;
+  margin-left: -75px;
+  font-size: 0;
+  text-align: center;
+}
+
+img {
+  float: middle;
+}
+.follow {
+  line-height: 19px;
+}
+
+.home-page-ss-img {
+  width: 600px;
+  height: 300px;
+  margin-top: 35%;
+  margin-left: 0%;
+  position: absolute;
+  text-align: center;
+}
+
+.valign{
+  vertical-align: middle;
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    width: 48%;
+    min-height: 48%;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 351px;
+  }
+}
